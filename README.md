@@ -18,22 +18,31 @@ Customer demographics (age, gender, location).
 Product interactions (viewing, adding to cart, purchasing).
 Transaction time and dates.
 Customer purchase history.
-Project Structure
-|-- data/
-|   |-- raw_data/                   # Raw, unprocessed data
-|   |-- processed_data/             # Cleaned and preprocessed data
-|
-|-- notebooks/                      # Jupyter notebooks for model development
-|
-|-- src/
-|   |-- data_preprocessing.py       # Scripts for cleaning and feature engineering
-|   |-- classification_model.py    # Classification model (churn prediction)
-|   |-- regression_model.py        # Regression model (sales prediction)
-|   |-- clustering_model.py        # Clustering model (customer segmentation)
-|   |-- recommendation_system.py   # Recommendation system
-|
-|-- app/
-|   |-- app.py                      # Streamlit web application for model deployment
-|
-|-- requirements.txt               # List of dependencies
-|-- README.md                      # Project documentation
+
+Model Performance
+Each machine learning model is evaluated using standard metrics:
+
+Classification Model:
+
+Accuracy
+Precision, Recall, F1-Score
+Regression Model:
+
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+Clustering Model:
+
+Inertia (sum of squared distances from points to the center of their cluster)
+Silhouette Score (measures how similar objects are within their cluster)
+Recommendation System:
+
+Root Mean Squared Error (RMSE) for prediction accuracy.
+Precision/Recall for recommendation relevance.
+Technologies Used
+Programming Languages: Python, HTML, CSS, JavaScript
+Libraries:
+Machine Learning: scikit-learn, XGBoost, pandas, numpy
+Data Visualization: matplotlib, seaborn, plotly
+Web Framework: Streamlit
+Deployment: Streamlit app for serving models and displaying results on the web interface.
