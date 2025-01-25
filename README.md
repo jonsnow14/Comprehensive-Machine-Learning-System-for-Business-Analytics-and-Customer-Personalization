@@ -18,3 +18,22 @@ Customer demographics (age, gender, location).
 Product interactions (viewing, adding to cart, purchasing).
 Transaction time and dates.
 Customer purchase history.
+Project Structure
+|-- data/
+|   |-- raw_data/                   # Raw, unprocessed data
+|   |-- processed_data/             # Cleaned and preprocessed data
+|
+|-- notebooks/                      # Jupyter notebooks for model development
+|
+|-- src/
+|   |-- data_preprocessing.py       # Scripts for cleaning and feature engineering
+|   |-- classification_model.py    # Classification model (churn prediction)
+|   |-- regression_model.py        # Regression model (sales prediction)
+|   |-- clustering_model.py        # Clustering model (customer segmentation)
+|   |-- recommendation_system.py   # Recommendation system
+|
+|-- app/
+|   |-- app.py                      # Streamlit web application for model deployment
+|
+|-- requirements.txt               # List of dependencies
+|-- README.md                      # Project documentation
