@@ -11,7 +11,7 @@ Recommendation System: Personalized product recommendations based on purchase hi
 Dataset
 This project uses the Retail Rocket Dataset, which is publicly available on Kaggle. It contains data about customer demographics, product interactions (views, carts, purchases), and timestamps of transactions.
 
-You can access the dataset here: Retail Rocket Dataset on Kaggle
+
 
 Dataset Features:
 Customer demographics (age, gender, location).
